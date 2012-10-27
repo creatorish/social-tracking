@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title></title>
+</head>
+<body>
+
+<!-- Tweetボタン -->
+<div>
+	<a href="https://twitter.com/share" class="twitter-share-button" data-via="creatorish" data-lang="ja">ツイート</a>
+</div>
+<!-- はてブボタン -->
+<div>
+	<a href="http://b.hatena.ne.jp/entry/" class="hatena-bookmark-button" data-hatena-bookmark-layout="simple-balloon" title="このエントリーをはてなブックマークに追加">
+		<img src="http://b.st-hatena.com/images/entry-button/button-only.gif" alt="このエントリーをはてなブックマークに追加" width="20" height="20" style="border: none;" />
+	</a>
+</div>
+<!-- +1ボタン -->
+<div class="g-plusone" data-size="medium"></div>
+<!-- いいねボタン-->
+<div class="fb-like" data-send="false" data-layout="button_count" data-width="100" data-show-faces="false" data-font="arial"></div>
+
+<div id="fb-root"></div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src="social-tracking.js" async></script>
+<script>
+	new SocialTracking({
+		appid: "124107787727107",
+		trackid: "UA-35271923-1"
+	});
+</script>
+
+</body>
+</html>
